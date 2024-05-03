@@ -42,5 +42,11 @@ make create_alacritty_config_dir
 ```
 2. Copy the `.toml` script from here to the created directory:
 ```bash
-make 
+make send_alacritty_config
 ```
+3. Run `alacritty -v` to check if it was able to find the config file. It should say something like:
+```
+[0.000635953s] [INFO ] [alacritty] Configuration files loaded from:
+                                     "/home/fornav/.config/alacritty/alacritty.yml"
+```
+4. Fix 
