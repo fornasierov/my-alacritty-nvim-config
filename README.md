@@ -52,3 +52,31 @@ make send_alacritty_config
 
 # Neo-VIM
 
+## Install
+If you're running a Debian-based OS, you will most likely end up with a nvim version <0.8 if you run `sudo apt install neovim`. Instead, do the following based on their [release page](https://github.com/neovim/neovim/releases/)
+1. Download and extract the binary:
+```bash
+make download_and_extract_nvim
+```
+2. Create symbolic link to be able to call the binary via terminal:
+```bash
+make create_nvim_symlink
+```
+3. Run `nvim --version` to check if it was correctly installed. The output should look like this:
+```
+NVIM v0.9.5
+Build type: Release
+LuaJIT 2.1.1692716794
+
+   system vimrc file: "$VIM/sysinit.vim"
+  fall-back for $VIM: "/__w/neovim/neovim/build/nvim.AppDir/usr/share/nvim"
+
+Run :checkhealth for more info
+```
+
+## Configure
+1. Create a folder for nvim in the `.config` directory:
+```bash
+make create_nvim_config_dir
+```
+2. 
