@@ -27,7 +27,20 @@ I like Alacritty. I'm trying to learn VIM. This is me working on these two thing
 ```
 
 -------
-# Installing Alacritty and NVIM
+# Alacritty
 
-## Alacritty
-1. 
+## Install
+I'm just going to add their repo to my OS because it's the easiest way:
+1. Update your system
+2. `sudo add-apt-repository ppa:aslatter/ppa -y` (https://launchpad.net/~aslatter/+archive/ubuntu/ppa)
+3. `sudo apt install alacritty`
+
+## Configure
+1. Create a folder for alacritty in one of the [required locations](https://github.com/alacritty/alacritty):
+```bash
+make create_alacritty_config_dir
+```
+2. Copy the `.toml` script from here to the created directory:
+```bash
+make 
+```
