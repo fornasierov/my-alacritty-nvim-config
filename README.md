@@ -40,7 +40,7 @@ I'm just going to add their repo to my OS because it's the easiest way:
 ```bash
 make create_alacritty_config_dir
 ```
-2. Copy the `.toml` script from here to the created directory:
+2. Copy the `.yml` script from here to the created directory:
 ```bash
 make send_alacritty_config
 ```
@@ -49,4 +49,6 @@ make send_alacritty_config
 [0.000635953s] [INFO ] [alacritty] Configuration files loaded from:
                                      "/home/fornav/.config/alacritty/alacritty.yml"
 ```
-4. Fix 
+
+# Neo-VIM
+
