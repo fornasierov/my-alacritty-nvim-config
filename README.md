@@ -2,7 +2,7 @@
 I like Alacritty. I'm trying to learn VIM. This is me working on these two things to come up with a config that works for me.
 
 -------
-# My computer
+# My system
 ```
              /////////////                fornav@pop-os 
          /////////////////////            ------------- 
@@ -50,7 +50,7 @@ make send_alacritty_config
                                      "/home/fornav/.config/alacritty/alacritty.yml"
 ```
 
-# Neo-VIM
+# Neovim
 
 ## Install
 If you're running a Debian-based OS, you will most likely end up with a nvim version <0.8 if you run `sudo apt install neovim`. Instead, do the following based on their [release page](https://github.com/neovim/neovim/releases/)
