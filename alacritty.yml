@@ -2,10 +2,10 @@ window:
   padding:
     x: 10
     y: 10
-window:
   dimensions:
     columns: 80
     lines: 24
+  opacity: 0.90
 font:
   # normal:
   #   family: "Source Code pro"
@@ -50,6 +50,3 @@ scrolling:
     hide_when_typing: true
     double_click:
       threshold: 300ms
-# Setup opacity
-window:
-  opacity: 0.90
