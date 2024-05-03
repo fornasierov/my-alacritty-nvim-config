@@ -53,7 +53,7 @@ make send_alacritty_config
 # Neovim
 
 ## Install
-If you're running a Debian-based OS, you will most likely end up with a nvim version <0.8 if you run `sudo apt install neovim`. Instead, do the following based on their [release page](https://github.com/neovim/neovim/releases/)
+If you're running a Debian-based OS, you will most likely end up with a nvim version <0.8 if you run `sudo apt install neovim`. Instead, do the following based on their [release page](https://github.com/neovim/neovim/releases/):
 1. Download and extract the binary:
 ```bash
 make download_and_extract_nvim
