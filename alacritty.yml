@@ -50,29 +50,6 @@ scrolling:
     hide_when_typing: true
     double_click:
       threshold: 300ms
-  key_bindings:
-    - { key: PageUp, mods: Alt, action: ScrollPageUp }
-    - { key: PageDown, mods: Alt, action: ScrollPageDown }
-    - { key: Home, mods: Alt, action: ScrollToTop }
-    - { key: End, mods: Alt, action: ScrollToBottom }
-    - { key: Up, mods: Alt, action: ScrollUp }
-    - { key: Down, mods: Alt, action: ScrollDown }
-    - { key: Up, mods: Control, action: ScrollUpByLine }
-    - { key: Down, mods: Control, action: ScrollDownByLine }
-    - { key: Up, mods: Shift, action: ScrollUpByPage }
-    - { key: Down, mods: Shift, action: ScrollDownByPage }
-    - { key: Up, mods: Super, action: ScrollToTop }
-    - { key: Down, mods: Super, action: ScrollToBottom }
-    - { key: Up, mods: Super, action: ScrollUpByPage }
-    - { key: Down, mods: Super, action: ScrollDownByPage }
-    - { key: Up, mods: Super, action: ScrollUpByLine }
-    - { key: Down, mods: Super, action: ScrollDownByLine }
-    - { key: Up, mods: Super, action: ScrollUp }
-    - { key: Down, mods: Super, action: ScrollDown }
-    - { key: Up, mods: Super, action: ScrollUpByLine }
-    - { key: Down, mods: Super, action: ScrollDownByLine }
-    - { key: Up, mods: Super, action: ScrollUpByPage }
-    - { key: Down, mods: Super, action: ScrollDownByPage }
-    - { key: Up, mods: Super, action: ScrollUpByPage }
-    - { key: Down, mods: Super, action: ScrollDownByPage }
-    - { key: Up, mods }
+# Setup opacity
+window:
+  opacity: 0.90
